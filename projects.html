@@ -33,4 +33,115 @@
                 <p>Majority of my work so far has been collaborative, whether it 
                     be web applications or research in the social sciences. My niche 
                     interest between the interdisciplinary study of Information Technologies 
-                    and STS 
+                    and STS allows me to play a unique and valuable role within these projects. </p>
+
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'London')">GenAI+Quantum</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris')">CBS </button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">OED</button>
+                  </div>
+                  
+                  <div id="London" class="tabcontent">
+                    <h3>URP Quantum Computing and Generative AI</h3>
+                    <small>Research Assistant @ RPI January 2024 - Present</small>
+                    <p>The aim of this project is to understand the difference quantum computing makes on the algorithmic
+                        processing of Generative AIs. We want to understand the real-world speed benefits quantum computing 
+                        can bring to Generative AI. 
+                    </p>
+                    <ul>
+                        <li>Investigating the difference quantum computing makes on algorithmic processing 
+                            on Generative AIs. Developing an LLM based on texts from the Project Gutenberg database. 
+                        </li>
+                        <li>Training and developing a generative AI for testing.</li>
+                    </ul>
+                    <a href="https://news.rpi.edu/2024/04/05/rensselaer-polytechnic-institute-and-ibm-unveil-worlds-first-ibm-quantum-system-one#" class="card-link">
+                    <div class="card">
+                        <img src="resources/images/quantum.png" alt="Quantum Computer" style="width:100%">
+                        <div class="container">
+                          <h3><b>IBM Quantum System One</b></h3> 
+                          <p>@RPI</p> 
+                        </div>
+                    </div>
+                   </a>
+
+                  </div>
+                  
+                  <div id="Paris" class="tabcontent">
+                    <h3>URP Collaborative Paradigm for Community Engagement</h3>
+                    <small>Paid Research Assistant @ RPI January 2024 - Present</small>
+                    <p>An initiative by the U.S. Department of Energy (DOE) in funding awardees such as RPI to engage with additional 
+                        partners and communities to further the conversation around consolidated interim storage of spent nuclear fuel.
+                    </p> 
+                    <ul>
+                        <li>Commissioned $25 Million by the U.S. Department of Energy (DOE) to develop 
+                            a Community Engagement Toolkit for CBS processes to facilitate community engagement 
+                            for nuclear waste management strategies. 
+                        </li>
+                        <li>Focus on needs and concerns of community stakeholders to create a platform of meaningful
+                             dialogues for the purpose of democratic decision-making on controversial issues in science and technology. </li>
+                    </ul>
+                    <a href="https://news.rpi.edu/content/2023/08/11/doe-awards-26-million-support-community-centered-approach-siting-spent-nuclear" class="card-link">
+                        <div class="card">
+                            <img src="resources/images/usenergy.png" alt="Quantum Computer" style="width:100%">
+                            <div class="container">
+                              <h3><b>DOE's Consent Based Siting </b></h3> 
+                              <p>@RPI – For Interim Storage Program</p> 
+                            </div>
+                        </div>
+                       </a>
+                  </div>
+                  
+                  <div id="Tokyo" class="tabcontent">
+                    <h3>Open Energy Dashboard </h3>
+                    <p>A free, open source project that provides software to display energy and resource data in a web browser. It was designed 
+                        from the ground up to be portable so it can be used at many organizations. 
+                    </p>
+                    <ul>
+                        <li>Created and implemented interface designs using Javascript, CSS styling, and HTML. </li>
+                    </ul>
+                    <a href="https://openenergydashboard.org/" class="card-link">
+                        <div class="card">
+                            <img src="resources/images/oed.png" alt="Quantum Computer" style="width:100%">
+                            <div class="container">
+                              <h3><b>Open Energy Dashboard</b></h3> 
+                              <p>@External – A free, open source web tool</p> 
+                            </div>
+                        </div>
+                    </a>
+                  </div>
+                  
+            </div>
+
+          
+        </div>
+
+        <footer class="footer">
+            <p>made with rizz <br> @ kaiik ~</p>
+            <i class="fa fa-github w3-hover-opacity"></i>
+            <i class="fa fa-envelope w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+            <p></p>
+          </footer>
+
+        <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        // Add a function to trigger the default tab
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector(".tablinks").click();
+        });
+        </script>
+
+    </body>
+</html>
