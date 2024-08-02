@@ -1,7 +1,7 @@
 /* navbar */
 .navbar {
     padding: 5px;
-    margin-bottom: -14px;
+    margin-bottom: -44px;
 }
   
 .navbar ul {
@@ -27,6 +27,7 @@
     border-right: 3px solid rgb(211, 211, 211);
     border-left: 3px solid rgb(211, 211, 211);
     background-color: rgb(211, 229, 229);
+    color: black;
 }
 
 .navbar li a:hover {
