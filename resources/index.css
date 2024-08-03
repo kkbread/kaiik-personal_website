@@ -225,7 +225,7 @@
 }
 
 .main1 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .quote {
@@ -245,15 +245,14 @@
 
 .quote small {
     position: absolute; /* Absolute positioning */
-    top: 1202px;
     right: 20px; /* Distance from the right */
     margin: 10px;
+    margin-top: 100px;
     line-height: 2;
 }
 
 .quote h1 {
     position: absolute; /* Absolute positioning */
-    top: 1130px;
     right: 300px; /* Distance from the right */
     margin: 10px;
 }
@@ -283,6 +282,11 @@
     color: rgb(139, 139, 139);
     text-align: center;
     margin-top: 20px;
+}
+
+.footer a {
+    color: inherit; /* Inherit the color from the parent element */
+    text-decoration: none;
 }
 
 .footer i {
