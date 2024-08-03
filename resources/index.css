@@ -243,6 +243,14 @@
     line-height: 2;
 }
 
+.quote small {
+    position: absolute; /* Absolute positioning */
+    top: 1202px;
+    right: 20px; /* Distance from the right */
+    margin: 10px;
+    line-height: 2;
+}
+
 .quote h1 {
     position: absolute; /* Absolute positioning */
     top: 1130px;
